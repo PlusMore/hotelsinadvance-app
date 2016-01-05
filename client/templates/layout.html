@@ -1,0 +1,17 @@
+<head>
+  <title>example</title>
+</head>
+
+<template name="layout">
+  <a href="/">home</a>
+  <a href="/about">about</a>
+  <a href="/hotel/hotel-1">hotel</a>
+  <a href="/hotel-list">hotel-list</a>
+  <a href="/login">login</a>
+  <a href="/request">request</a>
+  <a href="/welcome">welcome</a>
+  <hr>
+
+  {{> Template.dynamic template=main}}
+
+</template>

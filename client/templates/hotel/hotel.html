@@ -1,0 +1,14 @@
+<template name="hotel">
+  <div>Hotel</div>
+  {{#if Template.subscriptionsReady}}
+      {{#if hotel}}
+        <div>Hotel: {{hotel.title}}</div>
+      {{else}}
+        <div>404: Not found</div>
+      {{/if}}
+    {{else}}
+      <div>Loading...</div>
+    {{/if}}
+
+
+</template>
