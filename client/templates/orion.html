@@ -1,0 +1,46 @@
+<template name="orionBootstrapLayoutNew">
+  <div class="orion-bootstrap-admin">
+    <div class="sidebar">
+      {{# if dictionaryReady }}
+        {{> reactiveTemplate template="adminSidebar" }}
+      {{/ if }}
+    </div>
+    <div class="content">
+      {{> orionBootstrapHeader }}
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="admin-content">
+              {{# if dictionaryReady }}
+                {{> yield }}
+              {{/ if }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style type="text/css">
+    html, body {
+      zoom: 1 !important;
+      overflow: visible;
+    }
+  </style>
+</template>
+
+<template name="orionBootstrapOutAdminLayoutNew">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
+        {{> yield }}
+      </div>
+    </div>
+  </div>
+  <style type="text/css">
+    html, body {
+      zoom: 1 !important;
+      overflow: visible;
+    }
+  </style>
+
+</template>

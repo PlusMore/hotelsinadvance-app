@@ -1,0 +1,449 @@
+/*media queries
+
+@media only screen and (max-width: 2000px){
+    body {
+    -moz-transform: scale(0.6, 0.6);
+    zoom: 0.6;
+    zoom: 60%;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    body {
+    -moz-transform: scale(0.5, 0.5);
+    zoom: 0.5;
+    zoom: 50%;
+    }
+}
+*/
+/*
+@media only screen and (max-width: 1025px){
+     body {
+        -moz-transform: scale(0.4, 0.4);
+        zoom: 0.4;
+        zoom: 40%;
+    }
+    header.container-fluid{
+        height: 100px;
+    }
+    header a.logo{
+        line-height: 100px;
+        font-size: 27px;
+        padding-left: 35px;
+    }
+    header input[type=text] ,.account-dropdown > a{
+        line-height: 98px;
+        height: 98px;
+        font-size: 27px;
+    }
+    .hotel-page #hotel-slider .carousel-caption{
+        bottom: 10px;
+        left: 15px;
+    }
+    .account-dropdown .dropdown-menu a{
+        font-size: 27px;
+    }
+    header input[type=submit]{
+        margin-left: 0px;
+    }
+    .container-fluid{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    nav.green-nav {
+        line-height: 64px;
+        height: 64px;
+    }
+    nav.green-nav ul li a{
+        font-size: 24px;
+    }
+    .main-content {
+        padding-top: 25px;
+    }
+    .main-content h2 {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .main-content p{
+        font-size: 24px;
+    }
+    .request-page h2 {
+        font-size: 64px;
+    }
+    .request-page input{
+        font-size: 45px;
+        line-height: 100px;
+        height: 100px;
+    }
+    .login-page{
+       background: url("/img/login.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+    .login-page h2 {
+        margin-top: 5%;
+        margin-bottom: 0px;
+        font-size: 56px;
+    }
+    .login-page h3 {
+        font-size: 32px;
+    }
+    .login-page input[type=text], .login-page input[type=password] {
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 14px;
+    height: 50px;
+    line-height: 50px;
+    }
+    .login-page .custom-check label {
+        font-size: 20px;
+    }
+    .login-page input[type=submit]{
+        height: 50px;
+        line-height: 50px;
+        font-size: 28px;
+    }
+    .login-page p{
+        transform: scale(0.5);
+    }
+    .login-page section .row div:first-child{
+        border-bottom: 2px solid #FFF;
+        padding-bottom: 60px;
+    }
+    header.welcome-page h1{
+        font-size: 60px;
+    }
+    header.welcome-page h3{
+        font-size: 40px;
+    }
+    header.welcome-page form div:first-child{
+        margin-bottom: 10px;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .welcome-hotel div.row div:nth-child(1) > p{
+        font-size: 27px;
+    }
+    .welcome-hotel div.row div:nth-child(2) > p:nth-child(1) {
+        font-size: 32px;
+    }
+    .welcome-hotel div.row div:nth-child(2) > p:nth-child(2) {
+        font-size: 45px;
+    }
+    .welcome-hotel > div{
+        bottom: 0px;
+    }
+
+    .hotel-page #hotel-slider .slider-form{
+        bottom: auto;
+        margin-bottom: -40px;
+    }
+
+    .hotel-list-form form select,
+    .hotel-list-form form input[type=submit],
+    .hotel-list-form form input[type=text]{
+        height: 55px !important;
+        line-height: 55px !important;
+        font-size: 18px !important;
+    }
+    .hotel-list-form form select{
+        background-color: #FFF;
+    }
+    .hotel-page #hotel-slider .slider-form{
+        background-color: #FFF;
+        padding: 30px 85px;
+    }
+    .room-price{
+        padding-top: 150px;
+    }
+    .room-price .room-header-price{
+        font-size: 20px;
+    }
+    .room-price > .row > div{
+        width: 33%;
+        float: left;
+    }
+    .room-price .room-body-price h4{
+        font-size: 24px;
+    }
+    .room-price .room-body-price p{
+        font-size: 18px !important;
+        margin: 5px 0px !important;
+    }
+    .room-price .room-body-price div:nth-child(3) p {
+        font-size: 25px;
+    }
+    .room-price .room-body-price div:nth-child(4) p {
+        font-size: 36px;
+    }
+    .room-body-price a{
+        font-size: 32px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .what-to-know h4{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .what-to-know h5{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .what-to-know p {
+        color: #191919;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    .hotel-page #hotel-slider .carousel-caption h3 {
+        font-size: 40px;
+    }
+    .hotel-page #hotel-slider .carousel-caption p {
+        font-size: 22px;
+    }
+
+    .room-price .room-body-price h5{
+        font-size: 18px;
+    }
+    .hotel-page #hotel-slider .slider-form{
+        padding: 0px;
+    }
+    .more-hotels .row .row{
+        top: 10px;
+        left: auto;
+    }
+    .hotel-page{
+        padding: 0px;
+    }
+    .hotel-page #hotel-slider,
+    .hotel-page #hotel-slider .slider-form .row{
+        margin: 0px;
+    }
+    .more-hotels h4{
+        position: static;
+        background: #FFF;
+        color: #333;
+        margin-top: 0px;
+        padding: 5px;
+    }
+    .more-hotels .row .row div:nth-child(1) p{
+        padding-left: 15px;
+    }
+    .hotel-result-page p{
+        font-size: 45px;
+        line-height: 54px;
+    }
+    .hotel-result-page a{
+        font-size: 36px;
+    }
+    .hotel-result-page p{
+        padding: 35px 15px 35px 0px
+    }
+    .hotel-result-page a:first-child {
+        padding-top: 45px;
+    }
+    .hotel-area {
+        border-right: 2px solid #dedede;
+        border: none;
+    }
+    .hotel-area h4{
+        padding-top: 0px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    .hotel-area .checkboxBtn label {
+        font-size: 22px;
+    }
+    .sortBy ,
+    .sortBy select{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .hotel-box img{
+        padding-left: 0px;
+    }
+    .hotel-box p.hotel-name {
+        font-size: 22px;
+    }
+    .hotel-box p.hotel-location {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .hotel-box p.mini-bar{
+        font-size: 18px;
+    }
+    .hotel-box p.hotel-price {
+        font-size: 32px;
+    }
+    .hotel-box p.hotel-price span {
+        font-size: 25px;
+    }
+    .hotel-box a {
+    border-radius: 7px;
+    font-size: 27px;
+    height: 45px;
+    line-height: 45px;
+    }
+}
+@media only screen and (max-width: 992px){
+     header.container-fluid{
+        height: auto;
+    }
+    header a.logo,
+    .account-dropdown > a{
+        border: none;
+        text-align: center;
+    }
+    .account-dropdown .dropdown-menu a{
+    }
+    .request-page input{
+        font-size: 32px;
+        line-height: 80px;
+        height: 80px;
+    }
+    .login-page p a{
+        font-size: 32px;
+    }
+    .login-page section .row div:first-child{
+        border-bottom: 2px solid #FFF;
+        padding-bottom: 60px;
+    }
+    header.welcome-page a.logo{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    header.welcome-page h1{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    header.welcome-page h3{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    header.welcome-page form input[type=submit],
+    header.welcome-page form button,
+    header.welcome-page form input[type=text] {
+        font-size: 20px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .welcome-hotel div.row div:nth-child(1) > p{
+        font-size: 20px;
+    }
+    .welcome-hotel div.row div:nth-child(2) > p:nth-child(1) {
+        font-size: 25px;
+    }
+    .welcome-hotel div.row div:nth-child(2) > p:nth-child(2) {
+        font-size: 32px;
+    }
+
+    .welcome-page .row{
+        margin: 0px;
+    }
+    header.welcome-page form div:first-child {
+        margin-bottom: 10px;
+        margin-left: -0px;
+        margin-right: -0px;
+    }
+     .hotel-list-form form select,
+    .hotel-list-form form input[type=submit],
+    .hotel-list-form form input[type=text]{
+        height: 55px;
+        line-height: 55px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .room-price {
+        padding-top: 100px;
+    }
+    .room-price .room-body-price div:nth-child(2) p{
+        font-size: 18px;
+        padding: 3px 0px;
+    }
+    .room-price .room-body-price h5{
+        font-size: 16px;
+    }
+    .what-to-know h5 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .what-to-know p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .hotel-box p.hotel-name{
+        margin-top: 20px;
+    }
+    .hotel-list-form .col-sm-2{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .hotel-list-form form input[type=text]{
+        font-size: 16px !important;
+        text-indent: 3px;
+    }
+    .hotel-list-form form select{
+        font-size: 16px !important;
+    }
+    .hotel-area .checkboxBtn label{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 767px){
+    header input[type=text]{
+        width: 30%;
+    }
+    header{
+        text-align: center;
+    }
+    .account-dropdown .dropdown-menu{
+        left: 50%;
+        margin-left: -80px;
+    }
+    header.container-fluid.welcome-page{
+        height: auto;
+
+    }
+    header.welcome-page form{
+        position: static;
+    }
+    header.welcome-page form input[type=submit]{
+        margin: 20px 0px;
+    }
+    header.welcome-page form input[type=text]{
+        margin-bottom: 10px;
+    }
+    .welcome-hotel > div > p{
+        font-size: 36px;
+        width: 300px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .welcome-hotel div.row div:nth-child(1) > p{
+        font-size: 45px;
+    }
+    .welcome-hotel div.row div:nth-child(2) > p:nth-child(1) {
+        font-size: 60px;
+    }
+    .welcome-hotel div.row div:nth-child(2) > p:nth-child(2) {
+        font-size: 50px;
+    }
+    .hotel-page #hotel-slider .slider-form .col-sm-6{
+        float: left;
+        width: 50%;
+    }
+    .hotel-page #hotel-slider .slider-form .col-sm-6:last-child,
+    .room-price > .row > div{
+        width: 100%;
+    }
+    .room-price {
+        padding-top: 150px;
+    }
+    .hotel-list-form form input[type=text]{
+        text-indent: 10%;
+    }
+}
+*/

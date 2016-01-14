@@ -1,0 +1,382 @@
+/*welcome page*/
+header.container-fluid.welcome-page{
+    border-bottom: none;
+    background: url('/img/welcome.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 62.60504201680672vw;
+    height: 80vw;
+    height: 67%;
+    position: relative;
+}
+header.welcome-page{
+    color: #FFF;
+}
+header.welcome-page h1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+header.welcome-page h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+header.welcome-page a.logo{
+    border-right: none;
+    color: #FFF;
+}
+header.welcome-page .account-dropdown > a{
+    color: #FFF;
+    border-left: none;
+}
+header.welcome-page .account-dropdown .dropdown-menu{
+    background: transparent;
+    top: 70%;
+}
+header.welcome-page .account-dropdown .dropdown-menu a{
+    color: #FFF;
+}
+header.welcome-page .account-dropdown .dropdown-menu li:hover a{
+    background: transparent;
+    color: #333;
+}
+header.welcome-page form {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    bottom: 90px;
+    width: 100%;
+}
+header.welcome-page form > div,
+header.welcome-page form .row > div{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+header.welcome-page form button{
+    border: none;
+    background: #FFF;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 104%;
+    position: relative;
+    /*right: -6px;*/
+}
+header.welcome-page form button i{
+    /*margin: 0 auto;*/
+    border-right: 2px solid #989a9c;
+    padding-right: 20px;
+    padding-right: 90px;
+    display: block;
+    float: right;
+}
+header.welcome-page form input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+header.welcome-page form input[type=text]{
+    font-size: 17px;
+}
+header.welcome-page form input[type=submit]{
+    text-indent: 0px;
+    font-size: 21px;
+    background: rgba(0,169,128,0.9);
+    margin: 0px;
+}
+header.welcome-page form input[type=text]::-webkit-input-placeholder {
+   color: #191919;
+}
+
+header.welcome-page form input[type=text]:-moz-placeholder { /* Firefox 18- */
+   color: #191919;
+}
+
+header.welcome-page form input[type=text]::-moz-placeholder {  /* Firefox 19+ */
+   color: #191919;
+}
+
+header.welcome-page form input[type=text]:-ms-input-placeholder {
+   color: #191919;
+}
+section.welcome-page{
+    padding-top: 64px;
+}
+.welcome-hotel{
+    margin-bottom: 20px;
+}
+.welcome-hotel img{
+    width: 100%;
+}
+.welcome-hotel > div{
+    position: absolute;
+    bottom: 45px;
+    /*background: #F00;*/
+    color: #FFF;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    margin: 0px 15px;
+}
+.welcome-hotel > div > p{
+    margin-left: 25px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    background: rgba(0,169,128,0.9);
+    width: 150px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+}
+.welcome-hotel div.row div:nth-child(1) > p{
+    margin: 0px;
+    margin-left: 25px;
+    font-size: 21px;
+    font-weight: 700;
+    text-shadow: 5px 5px 30px rgba(0, 0, 0, 0.75);
+}
+.welcome-hotel div.row div:nth-child(1) > p:first-child{
+    /*background: red;*/
+    margin-top: 20px;
+}
+.welcome-hotel div.row div:nth-child(2){
+    text-align: right;
+}
+.welcome-hotel div.row div:nth-child(2) > p{
+    margin: 0px;
+    margin-right: 55px;
+    text-shadow: 5px 5px 30px rgba(0, 0, 0, 0.75);
+}
+.welcome-hotel div.row div:nth-child(2) > p:nth-child(1){
+    font-size: 46px;
+    text-decoration: line-through;
+}
+.welcome-hotel div.row div:nth-child(2) > p:nth-child(2){
+    font-size: 60px;
+}
+.welcome-hotel.hotel-list{
+        min-height: 550px;
+    }
+/*hotel page*/
+.hotel-page #hotel-slider{
+    margin-left: -85px;
+    margin-right: -85px;
+}
+.hotel-page #hotel-slider .carousel-control{
+    opacity: 1;
+    background: transparent;
+}
+.hotel-page #hotel-slider .carousel-control .glyphicon-chevron-left,
+.hotel-page #hotel-slider .carousel-control .glyphicon-chevron-right,
+.hotel-page #hotel-slider .carousel-control .icon-next,
+.hotel-page #hotel-slider .carousel-control .icon-prev{
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    margin-top: -80px;
+    /*text-indent: -999999px;*/
+    color: transparent;
+}
+.hotel-page #hotel-slider .carousel-caption{
+    width: 100%;
+    text-align: left;
+    left: 85px;
+    right: 0px;
+    top: auto;
+    bottom: 225px;
+}
+.hotel-page #hotel-slider .carousel-caption h3{
+    font-size: 37px;
+}
+.hotel-page #hotel-slider .carousel-caption p{
+    font-size: 17px;
+}
+.hotel-page .item img{
+    width: 100%;
+}
+.hotel-page #hotel-slider .slider-form {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 60px 85px;
+}
+.hotel-page #hotel-slider .slider-form .col-sm-6{
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.datepicker{
+    /*color: red;*/
+    font-size: 2.5em;
+    /*padding: 25px;*/
+    cursor: pointer;
+}
+.datepicker > div{
+    padding: 0px 15px;
+}
+.room-price{
+    padding-top: 100px;
+}
+.room-price > .row > div{
+    width: 20%;
+}
+.room-price .room-header-price{
+    color: #737373;
+    font-size: 17px;
+    padding-bottom: 45px;
+}
+.room-price img{
+    width: 100%;
+}
+.room-price .room-body-price{
+    color: #191919;
+    border-top: 2px solid #dedede;
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+.room-price .room-body-price h4{
+    color: #191919;
+    font-size: 17px;
+}
+.room-price .room-body-price h5{
+    color: #00a980;
+    border: 2px solid #00a980;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 52px;
+    height: 52px;
+    font-size: 25px;
+}
+.room-price .room-body-price h5 i{
+    position: relative;
+    top: 3px;
+}
+.room-price .room-body-price div:nth-child(2) p{
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.room-price .room-body-price div:nth-child(3) p{
+    font-size: 17px;
+}
+.room-price .room-body-price div:nth-child(3) p span{
+    font-size: 25px;
+    text-decoration: line-through;
+}
+.room-price .room-body-price div:nth-child(4) p{
+    font-size: 63px;
+}
+
+.room-body-price a{
+    background: #19b18c;
+    color: #FFF;
+    width: 100%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 44px;
+    text-align: center;
+    border-radius: 15px;
+}
+.what-to-know > div{
+    border-top: 2px solid #dedede;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+.what-to-know img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.what-to-know h4{
+    color: #333333;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 60px;
+}
+.what-to-know h5{
+    color: #191919;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 80px;
+}
+.what-to-know p{
+    color: #191919;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 64px;
+}
+.largeImg{
+    /*margin-bottom: 8px;*/
+    /*padding-bottom: 56.09756097560976%;*/
+    /*position: relative;*/
+    /*float: left;*/
+}
+.largeImg img{
+    /*position: absolute;*/
+}
+.smallImg{
+    cursor: pointer;
+}
+#map{
+    width: 100%;
+    height: 34.67666354264292vw;
+    -moz-transform: scale(2, 2);
+    zoom: 2;
+    zoom: 200%;
+    /*height: 700px;*/
+}
+.more-hotels{
+    background: #f2f2f2;
+    color: #FFF;
+    padding-bottom: 70px;
+}
+.more-hotels h3{
+    font-size: 40px;
+    color: #191919;
+    margin: 0px;
+    line-height: 120px;
+}/*
+.more-hotels h4{`
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 30px;
+    font-weight: 700;
+}
+.more-hotels a{
+    color: #FFF;
+}
+.more-hotels .row .row{
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.more-hotels .row .row div:nth-child(1) p{
+    font-size: 35px;
+    text-decoration: line-through;
+    color: #9c9ea0;
+    font-weight: 700;
+}
+.more-hotels .row .row div:nth-child(2) p{
+    font-size: 45px;
+    font-weight: 700;
+}
+.more-hotels .row .row div:nth-child(3) p{
+    font-size: 18px;
+    font-weight: 400;
+    background: rgba(0,169,128,0.9);
+    width: 110px;
+    text-align: center;
+    height: 46px;
+    line-height: 46px;
+    margin-top: 10px;
+}*/
+.more-hotels img{
+    width: 100%;
+}

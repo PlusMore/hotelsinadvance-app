@@ -1,0 +1,54 @@
+/*sprite*/
+.sprite {
+    background-image: url("/img/icons.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-checked {
+    width: 22px;
+    height: 22px;
+    background-position: -5px -5px;
+}
+
+.sprite-facebook {
+    width: 77px;
+    height: 77px;
+    background-position: -5px -37px;
+}
+
+.sprite-gray-droparrow {
+    width: 20px;
+    height: 11px;
+    background-position: -5px -124px;
+}
+
+.sprite-green-droparrow {
+    width: 17px;
+    height: 10px;
+    background-position: -5px -145px;
+}
+
+.sprite-location {
+    width: 25px;
+    height: 25px;
+    background-position: -5px -165px;
+}
+
+.sprite-magnifier {
+    width: 53px;
+    height: 53px;
+    background-position: -5px -230px;
+}
+
+.sprite-radio {
+    width: 29px;
+    height: 59px;
+    background-position: -5px -293px;
+}
+
+.sprite-white-droparrow {
+    width: 20px;
+    height: 11px;
+    background-position: -5px -362px;
+}

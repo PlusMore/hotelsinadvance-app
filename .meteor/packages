@@ -42,3 +42,5 @@ orionjs:image-attribute
 vsivsi:orion-file-collection
 orionjs:relationships
 orionjs:dictionary
+dburles:google-maps
+london:body-class

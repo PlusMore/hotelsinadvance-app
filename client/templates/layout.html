@@ -1,16 +1,20 @@
 <head>
-  <title>example</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hotels in Advance</title>
 </head>
 
 <template name="layout">
-  <a href="/">home</a>
-  <a href="/about">about</a>
-  <a href="/hotel/hotel-1">hotel</a>
-  <a href="/hotel-list">hotel-list</a>
-  <a href="/login">login</a>
-  <a href="/request">request</a>
-  <a href="/welcome">welcome</a>
-  <hr>
+
+  {{>header}}
+
+  {{> Template.dynamic template=main}}
+
+</template>
+
+
+<template name="layoutSimple">
 
   {{> Template.dynamic template=main}}
 

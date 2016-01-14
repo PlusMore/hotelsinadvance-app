@@ -1,3 +1,144 @@
 <template name="welcome">
-  <div>Welcome</div>
+  <header class="container-fluid welcome-page">
+      <div class="row">
+
+        <div class="col-md-4 col-md-4 col-sm-6">
+          <a href="/" class="logo">Hotels in Advance</a>
+        </div>
+        <div class="col-md-5 col-lg-6 col-sm-6">&nbsp;</div>
+        <div class="col-md-3 col-lg-2 col-sm-12">
+
+            {{>accountDropdown}}
+
+        </div>
+      </div>
+      <h1>Welcome to Hotels in Advance</h1>
+      <h3>Book 90 days in advance, non-refundable,<br> to get an exceptional price</h3>
+      <form class="row">
+          <div class="col-lg-4">
+              <div class="row">
+                  <div class="col-xs-3">
+                      <button class="location">
+                          <i class="sprite sprite-location"></i>
+                      </button>
+                  </div>
+                  <div class="col-xs-9">
+                      <input type="text" placeholder="Location">
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-8">
+              <div class="row">
+                  <div class="col-sm-4"><input type="text" id="checkin" placeholder="Check In"></div>
+                  <div class="col-sm-4"><input type="text" id="checkout" placeholder="Checkout"></div>
+                  <div class="col-sm-4"><input type="submit" value="SEARCH"></div>
+              </div>
+          </div>
+
+      </form>
+  </header>
+
+  <section class="container-fluid welcome-page">
+      <div class="row">
+          <div class="col-lg-4 col-sm-6 welcome-hotel">
+              <img src="/img/welcome1.jpg">
+              <div>
+                  <p>40% OFF</p>
+                  <div class="row">
+                      <div class="col-xs-7">
+                          <p>Hotel Hugo</p>
+                          <p>NY,NY</p>
+                      </div>
+                      <div class="col-xs-5">
+                          <p>$149</p>
+                          <p>$99</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 welcome-hotel">
+              <img src="/img/welcome2.jpg">
+              <div>
+                  <p>40% OFF</p>
+                  <div class="row">
+                      <div class="col-xs-7">
+                          <p>Gotham Hotel</p>
+                          <p>NY,NY</p>
+                      </div>
+                      <div class="col-xs-5">
+                          <p>$249</p>
+                          <p>$139</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 welcome-hotel">
+              <img src="/img/welcome3.jpg">
+              <div>
+                  <p>40% OFF</p>
+                  <div class="row">
+                      <div class="col-xs-7">
+                          <p>Indigo Hotel</p>
+                          <p>NY,NY</p>
+                      </div>
+                      <div class="col-xs-5">
+                          <p>$349</p>
+                          <p>$269</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- <div class="clearfix"></div> -->
+
+          <div class="col-lg-4 col-sm-6 welcome-hotel">
+              <img src="/img/welcome1.jpg">
+              <div>
+                  <p>40% OFF</p>
+                  <div class="row">
+                      <div class="col-xs-7">
+                          <p>Hotel Hugo</p>
+                          <p>NY,NY</p>
+                      </div>
+                      <div class="col-xs-5">
+                          <p>$149</p>
+                          <p>$99</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 welcome-hotel">
+              <img src="/img/welcome2.jpg">
+              <div>
+                  <p>40% OFF</p>
+                  <div class="row">
+                      <div class="col-xs-7">
+                          <p>Gotham Hotel</p>
+                          <p>NY,NY</p>
+                      </div>
+                      <div class="col-xs-5">
+                          <p>$249</p>
+                          <p>$139</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 welcome-hotel">
+              <img src="/img/welcome3.jpg">
+              <div>
+                  <p>40% OFF</p>
+                  <div class="row">
+                      <div class="col-xs-7">
+                          <p>Indigo Hotel</p>
+                          <p>NY,NY</p>
+                      </div>
+                      <div class="col-xs-5">
+                          <p>$349</p>
+                          <p>$269</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 </template>

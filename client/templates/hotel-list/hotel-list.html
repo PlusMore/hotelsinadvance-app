@@ -1,3 +1,398 @@
 <template name="hotel-list">
-  <div>Hotel list</div>
+  {{>navForm}}
+  <section class="container-fluid hotel-list">
+      <div class="row">
+          <div class="col-sm-6 col-md-3">
+              <div class="hotel-area">
+                  <h4>HOTEL AREA</h4>
+                  <div class="checkboxBtn">
+                      <div>
+                          <input type="checkbox" name="area" id="hotel1" checked>
+                          <label for="hotel1"><span></span> New York City</label>
+                      </div>
+                      <div>
+                          <input type="checkbox" name="area" id="hotel2">
+                          <label for="hotel2"><span></span> Times Square</label>
+                      </div>
+                      <div>
+                          <input type="checkbox" name="area" id="hotel3">
+                          <label for="hotel3"><span></span> Midtown West</label>
+                      </div>
+                      <div>
+                          <input type="checkbox" name="area" id="hotel4">
+                          <label for="hotel4"><span></span> Midtown East</label>
+                      </div>
+                      <div>
+                          <input type="checkbox" name="area" id="hotel5">
+                          <label for="hotel5"><span></span> Midtown Chelsea</label>
+                      </div>
+                      <div>
+                          <input type="checkbox" name="area" id="hotel6">
+                          <label for="hotel6"><span></span> Midtown Chinatown</label>
+                      </div>
+                      <div>
+                          <input type="checkbox" name="area" id="hotel7">
+                          <label for="hotel7"><span></span> Downtown - Wall Street</label>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-9">
+              <div class="sortBy text-right hidden-xs">
+                  <p>Sort By:
+                      <select>
+                          <option>Price</option>
+                          <option>Name</option>
+                      </select>
+                  </p>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4 col-sm-12 welcome-hotel hotel-list">
+                      <img src="/img/hotels/hotels_01.jpg">
+                      <div>
+                          <div class="row">
+                              <div class="col-xs-7">
+                                  <p>Hotel Hugo</p>
+                                  <p>New York (Midtown East)</p>
+                              </div>
+                              <div class="col-xs-5">
+                                  <p></p>
+                                  <p>$139</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-12 welcome-hotel hotel-list">
+                      <img src="/img/hotels/hotels_02.jpg">
+                      <div>
+                          <div class="row">
+                              <div class="col-xs-7">
+                                  <p>Hotel Hugo</p>
+                                  <p>New York (Midtown East)</p>
+                              </div>
+                              <div class="col-xs-5">
+                                  <p></p>
+                                  <p>$139</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-12 welcome-hotel hotel-list">
+                      <img src="/img/hotels/hotels_03.jpg">
+                      <div>
+                          <div class="row">
+                              <div class="col-xs-7">
+                                  <p>Hotel Hugo</p>
+                                  <p>New York (Midtown East)</p>
+                              </div>
+                              <div class="col-xs-5">
+                                  <p></p>
+                                  <p>$139</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-12 welcome-hotel hotel-list">
+                      <img src="/img/hotels/hotels_04.jpg">
+                      <div>
+                          <div class="row">
+                              <div class="col-xs-7">
+                                  <p>Hotel Hugo</p>
+                                  <p>New York (Midtown East)</p>
+                              </div>
+                              <div class="col-xs-5">
+                                  <p></p>
+                                  <p>$139</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-12 welcome-hotel hotel-list">
+                      <img src="/img/hotels/hotels_05.jpg">
+                      <div>
+                          <div class="row">
+                              <div class="col-xs-7">
+                                  <p>Hotel Hugo</p>
+                                  <p>New York (Midtown East)</p>
+                              </div>
+                              <div class="col-xs-5">
+                                  <p></p>
+                                  <p>$139</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-12 welcome-hotel hotel-list">
+                      <img src="/img/hotels/hotels_06.jpg">
+                      <div>
+                          <div class="row">
+                              <div class="col-xs-7">
+                                  <p>Hotel Hugo</p>
+                                  <p>New York (Midtown East)</p>
+                              </div>
+                              <div class="col-xs-5">
+                                  <p></p>
+                                  <p>$139</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-12 welcome-hotel hotel-list">
+                      <img src="/img/hotels/hotels_07.jpg">
+                      <div>
+                          <div class="row">
+                              <div class="col-xs-7">
+                                  <p>Hotel Hugo</p>
+                                  <p>New York (Midtown East)</p>
+                              </div>
+                              <div class="col-xs-5">
+                                  <p></p>
+                                  <p>$139</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-12 welcome-hotel hotel-list">
+                      <img src="/img/hotels/hotels_08.jpg">
+                      <div>
+                          <div class="row">
+                              <div class="col-xs-7">
+                                  <p>Hotel Hugo</p>
+                                  <p>New York (Midtown East)</p>
+                              </div>
+                              <div class="col-xs-5">
+                                  <p></p>
+                                  <p>$139</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-12 welcome-hotel hotel-list">
+                      <img src="/img/hotels/hotels_09.jpg">
+                      <div>
+                          <div class="row">
+                              <div class="col-xs-7">
+                                  <p>Hotel Hugo</p>
+                                  <p>New York (Midtown East)</p>
+                              </div>
+                              <div class="col-xs-5">
+                                  <p></p>
+                                  <p>$139</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-12 welcome-hotel hotel-list">
+                      <img src="/img/hotels/hotels_10.jpg">
+                      <div>
+                          <div class="row">
+                              <div class="col-xs-7">
+                                  <p>Hotel Hugo</p>
+                                  <p>New York (Midtown East)</p>
+                              </div>
+                              <div class="col-xs-5">
+                                  <p></p>
+                                  <p>$139</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+              </div>
+              <div class="row hotel-box">
+                  <div class="col-md-4">
+                      <img src="/img/hotels/hotels_01.jpg">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-name">Indigo Chelsea</p>
+                      <p class="hotel-location">New York (Midtown East)</p>
+                      <p class="hotel-refund">Non-Refundable</p>
+                      <p class="mini-bar">Free mini-bar access <i class="sprite sprite-checked"></i></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-price">$139/<span>night</span></p>
+                      <a href="#">Check Rates</a>
+                  </div>
+              </div>
+
+
+
+              <div class="row hotel-box">
+                  <div class="col-md-4">
+                      <img src="/img/hotels/hotels_02.jpg">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-name">Hotel on Rivington</p>
+                      <p class="hotel-location">New York (Midtown East)</p>
+                      <p class="hotel-refund">Non-Refundable</p>
+                      <p class="mini-bar">Free mini-bar access <i class="sprite sprite-checked"></i></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-price">$199/<span>night</span></p>
+                      <a href="#">Check Rates</a>
+                  </div>
+              </div>
+
+
+
+              <div class="row hotel-box">
+                  <div class="col-md-4">
+                      <img src="/img/hotels/hotels_03.jpg">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-name">Hotel Hugo</p>
+                      <p class="hotel-location">New York (Midtown East)</p>
+                      <p class="hotel-refund">Non-Refundable</p>
+                      <p class="mini-bar">Free mini-bar access <i class="sprite sprite-checked"></i></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-price">$89/<span>night</span></p>
+                      <a href="#">Check Rates</a>
+                  </div>
+              </div>
+
+
+
+              <div class="row hotel-box">
+                  <div class="col-md-4">
+                      <img src="/img/hotels/hotels_04.jpg">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-name">Gotham Hotel</p>
+                      <p class="hotel-location">New York (Midtown East)</p>
+                      <p class="hotel-refund">Non-Refundable</p>
+                      <p class="mini-bar">Free mini-bar access <i class="sprite sprite-checked"></i></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-price">$149/<span>night</span></p>
+                      <a href="#">Check Rates</a>
+                  </div>
+              </div>
+
+
+
+              <div class="row hotel-box">
+                  <div class="col-md-4">
+                      <img src="/img/hotels/hotels_05.jpg">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-name">Nomo Soho</p>
+                      <p class="hotel-location">New York (Midtown East)</p>
+                      <p class="hotel-refund">Non-Refundable</p>
+                      <p class="mini-bar">Free mini-bar access <i class="sprite sprite-checked"></i></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-price">$89/<span>night</span></p>
+                      <a href="#">Check Rates</a>
+                  </div>
+              </div>
+
+
+
+              <div class="row hotel-box">
+                  <div class="col-md-4">
+                      <img src="/img/hotels/hotels_06.jpg">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-name">Gem Hotel</p>
+                      <p class="hotel-location">New York (Midtown East)</p>
+                      <p class="hotel-refund">Non-Refundable</p>
+                      <p class="mini-bar">Free mini-bar access <i class="sprite sprite-checked"></i></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-price">$99/<span>night</span></p>
+                      <a href="#">Check Rates</a>
+                  </div>
+              </div>
+
+
+
+              <div class="row hotel-box">
+                  <div class="col-md-4">
+                      <img src="/img/hotels/hotels_07.jpg">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-name">Wyndham Garden</p>
+                      <p class="hotel-location">New York (Midtown East)</p>
+                      <p class="hotel-refund">Non-Refundable</p>
+                      <p class="mini-bar">Free mini-bar access <i class="sprite sprite-checked"></i></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-price">$129/<span>night</span></p>
+                      <a href="#">Check Rates</a>
+                  </div>
+              </div>
+
+
+
+              <div class="row hotel-box">
+                  <div class="col-md-4">
+                      <img src="/img/hotels/hotels_08.jpg">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-name">Tuscany Hotel</p>
+                      <p class="hotel-location">New York (Midtown East)</p>
+                      <p class="hotel-refund">Non-Refundable</p>
+                      <p class="mini-bar">Free mini-bar access <i class="sprite sprite-checked"></i></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-price">$111/<span>night</span></p>
+                      <a href="#">Check Rates</a>
+                  </div>
+              </div>
+
+
+
+              <div class="row hotel-box">
+                  <div class="col-md-4">
+                      <img src="/img/hotels/hotels_09.jpg">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-name">Court Hotel</p>
+                      <p class="hotel-location">New York (Midtown East)</p>
+                      <p class="hotel-refund">Non-Refundable</p>
+                      <p class="mini-bar">Free mini-bar access <i class="sprite sprite-checked"></i></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-price">$179/<span>night</span></p>
+                      <a href="#">Check Rates</a>
+                  </div>
+              </div>
+
+
+
+              <div class="row hotel-box">
+                  <div class="col-md-4">
+                      <img src="/img/hotels/hotels_10.jpg">
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-name">Dream Downtown</p>
+                      <p class="hotel-location">New York (Midtown East)</p>
+                      <p class="hotel-refund">Non-Refundable</p>
+                      <p class="mini-bar">Free mini-bar access <i class="sprite sprite-checked"></i></p>
+                  </div>
+                  <div class="col-md-4">
+                      <p class="hotel-price">$79/<span>night</span></p>
+                      <a href="#">Check Rates</a>
+                  </div>
+              </div>
+
+
+          </div>
+      </div>
+  </section>
+
+{{>navFooter}}
+
 </template>

@@ -1,0 +1,49 @@
+/*request page*/
+.request-page{
+    background: url("/img/request.jpg") no-repeat bottom center;
+    background-size: cover;
+    color: #FFF;
+}
+.request-page h2{
+    font-size: 102px;
+    margin-top: 10%;
+    font-weight: 400;
+}
+.request-page label{
+    font-size: 54px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.request-page input{
+    border-radius: 15px;
+    border: none;
+    line-height: 150px;
+    height: 150px;
+    width: 100%;
+    font-size: 54px;
+}
+.request-page input[type=text]{
+    color: #58595b;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.request-page input[type=text]::-webkit-input-placeholder {
+   color: #58595b;
+}
+
+.request-page input[type=text]:-moz-placeholder { /* Firefox 18- */
+   color: #58595b;
+}
+
+.request-page input[type=text]::-moz-placeholder {  /* Firefox 19+ */
+   color: #58595b;
+}
+
+.request-page input[type=text]:-ms-input-placeholder {
+   color: #58595b;
+}
+.request-page input[type=submit]{
+    color: #fff;
+    background: #09b486;
+}
